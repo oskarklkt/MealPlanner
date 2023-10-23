@@ -1,0 +1,26 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Meal Planner (Java)/*
+!/Meal Planner (Java)/task/
+/Meal Planner (Java)/task/*
+!/Meal Planner (Java)/task/src
+!/Meal Planner (Java)/task/build.gradle
+!/Meal Planner (Java)/task/plan.txt
+
+# Project exclude paths
+/Topics/The Map interface/Creating a map/out/
+/Topics/The Map interface/Creating a map/out/production/classes/
+/Topics/The Map interface/Sherlock Holmes and the mystery of anagrams/out/
+/Topics/The Map interface/Sherlock Holmes and the mystery of anagrams/out/production/classes/
+/Topics/The Set interface/Output elements/out/
+/Topics/The Set interface/Output elements/out/production/classes/
