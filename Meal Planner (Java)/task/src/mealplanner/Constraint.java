@@ -12,6 +12,7 @@ public class Constraint {
         return (n.isEmpty() || n.isBlank());
     }
 
+    //This method checks if meal's name given by user is correct
     public static Boolean constraintsName (String n) {
         boolean result = false;
         for (String ch : n.split("")) {
@@ -22,6 +23,7 @@ public class Constraint {
         }
         return result;
     }
+    //This method checks if ingredient's name given by user is correct
     public static Boolean constraintsIngredient (String n) {
         boolean result = false;
         for (String ch : n.split("")) {
@@ -33,7 +35,8 @@ public class Constraint {
         }
         return result;
     }
-
+    
+    //This method checks if meal category  given by user exists
     public static String checkCategory(String category) {
         Scanner scanner = new Scanner(System.in);
         List<String> mealTypes = new ArrayList<>(List.of("breakfast", "lunch", "dinner"));
