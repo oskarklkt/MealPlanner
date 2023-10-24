@@ -31,6 +31,7 @@ public class Controller {
             }
             case "save" -> {
                 try {
+                    //Getting shopping list if plan table exists in our database
                     Connection connection = Database.getConnection();
                     connection.createStatement().execute("SELECT * FROM plan");
                     ShoppingList.getShoppingList();
