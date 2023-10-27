@@ -3,6 +3,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Scanner;
 
+//Class that controls app's work
 public class Controller {
     static Boolean planExists = false;
     public static void start() throws SQLException {
