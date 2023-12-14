@@ -70,7 +70,7 @@ public class MealDAOImplementation implements MealDAO{
             while (resultSet.next()) {
                 id = resultSet.getInt(1) + 1;
             }
-        }catch (SQLException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return id;
